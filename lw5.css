@@ -1,0 +1,441 @@
+img
+{
+	width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #132d36;
+    position: absolute;
+    left: 480px;
+    top: 100px;
+
+}
+
+.heading
+{
+	font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-family: "Open Sans";
+    font-weight: 600;
+    position: absolute;
+    top: 493px;
+    left: 480px;
+}
+
+.list
+{
+	width: 330px;
+    height: 150px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+    position: absolute;
+    top: 540px;
+    left: 502px;
+}
+
+.heading2{
+	font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-family: "Open Sans";
+    font-weight: 600;
+    position: absolute;
+    top: 724px; 
+    left: 480px;
+}
+
+.list2{
+	width: 330px;
+    height: 150px;
+    font-size: 18px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";
+    position: absolute;
+    top: 768px;
+    left: 496px;
+   
+}
+
+.img2
+{
+   position: absolute;
+   left: 870px;
+   top: 150px;
+}
+
+.quote
+{
+	width: 566px;
+    height: 470px;
+    font-size: 28px;
+    line-height: 42px;
+    color: #ffffff;
+    font-family: "Georgia";
+    font-style: italic;
+    position: absolute;
+    left: 873px;
+    top: 125px;
+}
+
+.person
+{
+	font-size: 16px;
+    line-height: 42px;
+    color: #f5f5f5;
+    font-family: "Open Sans";
+    font-weight: 600;
+    height: 50px;
+    position: absolute;
+    top: 211px;
+    left: 876px;
+ }
+
+.head{
+    font-size: 48px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 700;
+    position: absolute;
+    left: 874px;
+    top: 334px;
+    display: inline;
+    width: 600px;
+}
+
+.line
+{
+	width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3aa;
+    position: absolute;
+    left: 869px;
+    top: 407px;
+}
+
+.text1
+{
+	width: 561px;
+    height: 198px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+    position: absolute;
+    left: 870px;
+    top: 455px;
+
+}
+
+.title2
+{
+	font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 400;
+    position: absolute;
+    left: 868px;
+    top: 692px;
+}
+
+.text2
+{
+	width: 562px;
+    height: 263px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+    position: absolute;
+    left: 870px;
+    top: 750px;
+ }
+
+ .link
+{
+	width: 562px;
+    height: 263px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #15a98b;
+    font-family: "Georgia";
+    position: absolute;
+    left: 870px;
+    top: 950px;
+}
+
+.container{
+    margin-top: 40px;
+    position: relative;
+    top: 70px;
+
+
+ 
+
+}
+
+body{ 
+    background: url(back12.png) no-repeat;
+    width: 100%;
+    max-width: 1200px;  
+    font-family: 'Open Sans', sans-serif;
+    
+   
+   
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 0;
+ 
+
+}
+
+nav{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    background-color: #fff;
+    overflow: hidden;
+    line-height: 50px;
+
+    margin-left: 480px;
+    height: 50px;
+
+    overflow: hidden;
+    font-size: 19px;
+    color: #333333;
+    font-family: "Georgia";
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.nav_link1{
+    width: 140px;
+    background: #15a98c;
+    color: #fff;
+    padding-left: 46px;
+
+}
+
+.nav_link2{
+    width: 160px;
+    padding-left: 47px;
+
+}
+
+.nav_link3{
+    width: 220px;
+    padding-left: 47px;
+
+}
+
+
+.film{
+    position: relative;
+    left: 357px;
+    top: 1049px;
+    margin: 0;
+
+    display: flex;
+}
+
+.column{
+    width: 285px;
+    height: 565px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Georgia";
+
+}
+
+
+.column1{
+    position: absolute;
+    left: 4px;
+    top: 392px;
+    width: 20%;
+  
+
+}
+
+.column2{
+    position: absolute;
+    top: 392px;
+    left: 308px;
+    width: 20%;
+    float: left;
+
+
+}
+
+.column3{
+    position: absolute;
+    top: 392px;
+    left: 613px;
+    width: 20%;
+    float: left;
+
+}
+
+.column4{
+    position: absolute;
+    top: 392px;
+    left: 919px;
+    width: 20%;
+    float: left;
+
+}
+
+.picture1{
+    width: 285px;
+    height: 190px;
+
+    float: left;
+    position: absolute;
+    left: 3px;
+
+}
+
+.picture2{
+    width: 285px;
+    height: 190px;
+
+    float: left;
+    position: absolute;
+    left: 308px;
+}
+
+.picture3{
+    width: 285px;
+    height: 190px;
+
+    float: left;
+    position: absolute;
+    left: 613px;
+}
+
+.picture4{
+    width: 285px;
+    height: 190px;
+
+    float: left;
+    position: absolute;
+    left: 918px;
+}
+
+
+.name{
+    font-size: 36px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 400;
+    position: absolute;
+    left: 3px;
+    padding-top: 21px;
+}
+
+.color{
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: 700;
+    width: 285px;
+    height: 565px;
+}
+
+
+.color1{
+    position: absolute;
+    top: 314px;
+    width: 21%;
+   
+
+}
+
+.color2{
+    position: absolute;
+    top: 314px;
+    left: 305px;
+    width: 21%;
+    float: left;
+
+
+}
+
+.color3{
+    position: absolute;
+    top: 314px;
+    left: 613px;
+    width: 21%;
+    float: left;
+
+}
+
+.color4{
+    position: absolute;
+    top: 314px;
+    left: 918px;
+    width: 21%;
+    float: left;
+}
+
+
+* {
+  margin : 0;
+  padding : 0;
+}
+
+.picture{
+    position: absolute;
+   
+}
+
+.footer{
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+    position: absolute;
+    top: 2271px;
+    left: 594px;
+}
+
+.end{
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #15a98c;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+    position: absolute;
+    top: 1971px; 
+    left: 841px; ;
+}
+
+.end:hover{
+    background-color: #098d71;
+}
+
+
