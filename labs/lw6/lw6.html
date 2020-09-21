@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title> Милкова Мария </title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <div class="navigation">
+      <ul class="navigation_lists">
+        <li> <a href="#about_me" class="about_me"> &ensp;
+            &ensp;
+            Обо мне</a> </li>
+        <li> <a href="#my_hobby" class="my_hobbies"> Мое хобби</a> </li>
+        <li> <a href="#favourite_film" class="favorite_film"> Любимые фильмы</a> </li>
+      </ul>
+    </div>
+    <div class="information">
+      <div class="photo_quote">
+        <div class="photo"> <img class="my_photo" src="images/my_photo.jpg" alt="моя фотография"> </div>
+        <div class="quotes"> <q class="text_quote"> Счастье - это способ <br> путешествовать. </q>
+          <p class="author"> <cite> — М. Ранбек</cite> </p>
+        </div>
+      </div>
+      <div class="top_information">
+        <div class="lists"> <span class="title_list"> Немного обо мне: </span>
+          <ul class="element_lists">
+            <li> Люблю покушать</li>
+            <li> Люблю поспать</li>
+            <li> Люблю котиков</li>
+            <li> Боюсь собак</li>
+          </ul> <span class="title_list"> Еще обо мне: </span>
+          <ol class="element_lists">
+            <li> нет котиков</li>
+            <li> есть собака</li>
+            <li> люблю торты</li>
+            <li> боюсь собак</li>
+          </ol>
+        </div>
+        <div class=info>
+          <h1 class="name">Милкова Мария</h1>
+          <hr class="line">
+          <p class="text" id="about_me"> Окончила гимназию №4 в Йошкар-Оле,
+            подала документы в ПГТУ ппотому что </p>
+          <h2 class="my_hobby" id="my_hobby"> Мое хобби</h2>
+          <p class="text"> В свое свободное время люблю гулять. </p>
+      </div>
+    </div>
+    <div class="my_movies">
+      <h2 class="favourite_films" id="favourite_film"> Любимые фильмы</h2>
+      <div class="films">
+        <div class="film"> <img src="images/film_one.jpg" alt="фото1" class="film_picture">
+          <h3 class="name_film"> Интерстеллар</h3>
+          <p class="text_film">  Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису,
+		  коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние)
+		  в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и найти планету с подходящими для человечества условиями. </p>
+        </div>
+        <div class="film"> <img class="film_picture" src="images/film_two.jpg" alt="фото2">
+          <h3 class="name_film"> 1 + 1</h3>
+          <p class="text_film"> Пострадав в результате несчастного случая,
+            богатый аристократ Филипп нанимает в помощники человека,
+            который менее всего подходит для этой работы,
+            — молодого жителя предместья Дрисса,
+            только что освободившегося из тюрьмы. Несмотря на то,
+            что Филипп прикован к инвалидному креслу,
+            Дриссу удается привнести в размеренную жизнь аристократа дух приключений. </p>
+        </div>
+        <div class="film"> <img src="images/film_three.jpg" class="film_picture" alt="фото3">
+          <h3 class="name_film"> Начало</h3>
+          <p class="text_film">Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна,
+		  когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным игроком в привычном к предательству мире промышленного шпионажа,
+		  но они же превратили его в извечного беглеца и лишили всего, что он когда-либо любил.</p>
+        </div>
+        <div class="film"> <img class="film_picture" src="images/film_four.jpg" alt="фото4">
+          <h3 class="name_film">Побег из шоушенка</h3>
+          <p class="text_film"> Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. 
+		  Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. 
+		  Каждый, кто попадает в эти стены, становится их рабом до конца жизни. 
+		  Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, 
+		  так и к охранникам, добиваясь их особого к себе расположения. </p>
+        </div>
+      </div>
+      <div>
+        <a class="button" target="_blank" href="https://www.kinopoisk.ru/"> Все фильмы</a>
+      </div>
+    </div>
+    <div class="forms">
+    <div class="title">
+      <span class="left"></span>
+      <h2 class="write">НАПИШИ МНЕ</h2>
+      <span class="right"></span>
+    </div>
+    <form method="POST" action="php/index.php" class="form">
+      <div class="form_field">
+        <label class="control_label" for="field_name">Ваше имя </label><span class="required">*</span>
+        <input class="field" type="text" name="first_name" id="field_name" value=" " required maxlength=255 />
+      </div>
+      <div class="form_field">
+        <label class="control_label" for="field_email">Ваш email </label><span class="required">*</span>
+        <input id="field_email" class="field" type="text" name="email" value=" " required maxlength=255 />
+      </div>
+      <div class="form_field">
+        <label class="control_label" for="field_country">Откуда вы?</label>
+        <select class="select" id="field_country" name="country" size="1">
+          <option value="China">Китай</option>
+          <option value="Czech">Чехия</option>
+          <option value="Mongolia">Монголия</option>
+          <option selected value="Russia">Россия</option>
+        </select>
+      </div>
+      <div class="gender">
+        <label class="control_label">Ваш пол</label>
+        <div class="gender_radio">
+          <input type="radio" name="gender" checked="" class="form_radio" id="field_man" value="male">
+          <label class="man" for="field_man">Мужской</label>
+          <input type="radio" name="gender" id="field_gender" class="form_radio"  value="female">
+          <label class="man" for="field_gender">Женский</label>
+        </div>
+      </div>
+      <label for="field_message" class="control_label">Ваше сообщение </label><span class="required">*</span>
+
+      <textarea name="message" class="message" id="field_message"></textarea>
+      <input type="submit" value="Отправить" class="button_send">
+    </form>
+  </div>
+  <footer class="end">
+    &copy; 2019-2023 Поволжский государственный технологический университет, ФГБОУ ВО "ПГТУ"
+  </footer>
+</body>
+
+</html>
